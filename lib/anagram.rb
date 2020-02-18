@@ -7,6 +7,6 @@ class Anagram
   end
   
   def match(words_array)
-    words_array.find
+    words_array.select
   end
 end
