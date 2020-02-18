@@ -11,4 +11,5 @@ class Anagram
       word.delete(' ').chars.sort == @word.chars.sort
     end
   end
+  
 end
